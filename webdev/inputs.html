@@ -1,0 +1,35 @@
+<!-- radio button - check boxes - radio = circle (e.g used to select gender) / 
+	checkbox = box (used to select skills)-->
+<!-- select tag - dropdown menu-->
+<!-- textarea tag -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+	<p>Do you prefer cats or dogs?</p>
+	<form>
+<!-- radio button example -->
+	<!-- giving the two inputs the same name it tells HTML that they are together and not seperate -->
+		<label for="dogs">Dogs </label>
+		<input id="dogs" type="radio" name="petChoice" value="dog">
+		
+		<label for="cats">Cats </label>
+		<input id="cats" type="radio" name="petChoice" value="cat">
+<!-- select tag example -->
+		<p>Choose your mood</p>
+		<select name="mood">
+			<option></option>
+			<option value="happy">:)</option>
+			<option value="okay">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+<!-- textarea example -->
+		<textarea name="paragraph" rows="10" cols="10"></textarea>
+
+		<button>GO!</button>
+	</form>
+</html>

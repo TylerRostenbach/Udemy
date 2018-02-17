@@ -13,4 +13,8 @@ Files
 
 	Table_exercise_1.html - Task: "Create a table and fill in with information and links given by Pokemondata.txt". Table made using <thead> and <tbody> instead of just using <th> for best practice. Filled in table with information and links to seperate webpages given by a .txt file that is not included.
 
+	Inputs.html - Webpage to practice implementation of forms, buttons, dropdown menus, and input text areas.
+
+	 
+
 	
