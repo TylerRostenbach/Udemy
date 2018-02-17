@@ -67,10 +67,17 @@
 	<!-- Practicing Forms -->
 	<h2>Sign In</h2>
 	<!-- placeholder is the greyed out letters in a form before user types in it -->
-	<form>
-		<input type="text" placeholder="username">
-		<input type="password" placeholder="password">
-		<input type="submit" >
+	<form action="http://www.wikipedia.org">
+	<!-- action - where the form send data to -->
+	<!-- method - what HTTP method (get/post) -->
+		<label for="username">Email:</label>
+		<input id="username" type="email" placeholder="username" required>
+
+		<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="password" required>
+
+		<input type="submit">
+
 	</form>
 
 </body>
