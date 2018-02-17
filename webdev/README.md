@@ -15,6 +15,8 @@ Files
 
 	Inputs.html - Webpage to practice implementation of forms, buttons, dropdown menus, and input text areas.
 
+	form_exercise.html - Task: "Recreate a registration webpage using dropdown menus, radio buttons, checkbox, required fields, min and max length for password, required email address inputs, and utilize placeholders". 
+				- Completion - 100%
 	 
 
 	
